@@ -4,9 +4,7 @@ Minimapa no estilo navegador GPS para **Multi Theft Auto: San Andreas**, inspira
 
 **Desenvolvedor:** Daniel Developer
 
-<p align="center">
-  <img src="docs/preview.png" alt="Minimapa GPS em jogo: card 'Vire à esquerda', distância e rota rosa" width="320">
-</p>
+https://imgur.com/a/fkyT7RA
 
 ---
 
