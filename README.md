@@ -6,7 +6,7 @@ Minimapa no estilo navegador GPS para **Multi Theft Auto: San Andreas**, inspira
 
 https://imgur.com/a/fkyT7RA.png
 
----
+<img width="195" height="188" alt="image" src="https://github.com/user-attachments/assets/825152fc-2687-4eea-b8bc-5531b5781bc6" />
 
 ## ✨ Recursos
 
@@ -25,8 +25,6 @@ https://imgur.com/a/fkyT7RA.png
   - **Formato:** redondo, quadrado ou retangular
   - **Opacidade:** de 20% a 100%
   - As preferências ficam salvas no computador do jogador.
-
----
 
 ## 📦 Instalação
 
@@ -47,8 +45,6 @@ https://imgur.com/a/fkyT7RA.png
 
 **Requisito:** MTA:SA 1.5.6 ou superior.
 
----
-
 ## 🎮 Como usar
 
 | Ação | Como fazer |
@@ -58,8 +54,6 @@ https://imgur.com/a/fkyT7RA.png
 | Definir destino por coordenadas | `/gps x y [z]` |
 | Remover destino | `/limpargps` |
 | Ligar/desligar o minimapa | `/minimapa` |
-
----
 
 ## 🧩 Exports (client-side)
 
@@ -79,8 +73,6 @@ exports.minimapa_gps:setRoute({ {x1, y1}, {x2, y2}, {x3, y3} })
 local x, y, z = exports.minimapa_gps:getDestination()
 ```
 
----
-
 ## ⚙️ Personalização
 
 As opções fixas ficam na tabela `CFG`, no início do `client.lua`:
@@ -96,8 +88,6 @@ As opções fixas ficam na tabela `CFG`, no início do `client.lua`:
 | `settingsKey` | Tecla do painel de configurações (padrão `F6`) |
 
 No `gps.lua`, `HIGHWAY_FACTOR` controla o quanto as rodovias são preferidas (menor que 1 = prefere rodovias).
-
----
 
 ## 📁 Estrutura
 
@@ -119,8 +109,6 @@ minimapa_gps/
     └── lib.js
 ```
 
----
-
 ## 🛠️ Regenerar a malha de ruas (opcional)
 
 Só é necessário se você usar um mod que altere as ruas do jogo. Precisa do [Node.js](https://nodejs.org/). Rode dentro da pasta do resource:
@@ -129,14 +117,10 @@ Só é necessário se você usar um mod que altere as ruas do jogo. Precisa do [
 node tools/build.js "C:/caminho/do/GTA San Andreas/data/Paths" files/nodes.dat
 ```
 
----
-
 ## ⚠️ Limitações
 
 - A malha de ruas é a mesma que os carros do GTA usam. Alguns becos e estacionamentos não fazem parte dela, e nesses lugares a rota termina na rua mais próxima.
 - A imagem do mapa tem 2048×2048 pixels e pode ficar um pouco borrada no zoom mais próximo.
-
----
 
 ## 📜 Créditos
 
