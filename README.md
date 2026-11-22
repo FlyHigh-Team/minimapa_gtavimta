@@ -4,7 +4,7 @@ Minimapa no estilo navegador GPS para **Multi Theft Auto: San Andreas**, inspira
 
 **Desenvolvedor:** Daniel Developer
 
-https://imgur.com/a/fkyT7RA
+https://imgur.com/a/fkyT7RA.png
 
 ---
 
